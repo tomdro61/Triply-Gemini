@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { FeatureCards } from './components/FeatureCards';
-import { StatsBar } from './components/StatsBar';
-import { Comparison } from './components/Comparison';
-import { ProductSection } from './components/ProductSection';
-import { BundlesSection } from './components/BundlesSection';
-import { HowItWorks } from './components/HowItWorks';
-import { SearchResults } from './components/SearchResults';
-import { SavingsCalculator } from './components/SavingsCalculator';
-import { Reviews } from './components/Reviews';
-import { FAQ } from './components/FAQ';
-import { Newsletter } from './components/Newsletter';
-import { Footer } from './components/Footer';
+import { Navbar } from './components/Navbar.tsx';
+import { Hero } from './components/Hero.tsx';
+import { FeatureCards } from './components/FeatureCards.tsx';
+import { StatsBar } from './components/StatsBar.tsx';
+import { Comparison } from './components/Comparison.tsx';
+import { ProductSection } from './components/ProductSection.tsx';
+import { BundlesSection } from './components/BundlesSection.tsx';
+import { HowItWorks } from './components/HowItWorks.tsx';
+import { SearchResults } from './components/SearchResults.tsx';
+import { SavingsCalculator } from './components/SavingsCalculator.tsx';
+import { Reviews } from './components/Reviews.tsx';
+import { FAQ } from './components/FAQ.tsx';
+import { Newsletter } from './components/Newsletter.tsx';
+import { Footer } from './components/Footer.tsx';
 import { Product, Bundle, SearchTab } from './types';
 
 const App: React.FC = () => {
