@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SearchTab } from './types';
-import { planTrip } from './services/geminiService';
+import { planTrip } from './geminiService';
 import { 
   Car, 
   Hotel, 
